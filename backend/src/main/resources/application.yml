@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gym-churn-prediction
+
+# Path to the exported ONNX model
+# Place churn_model.onnx in the project_rep root, then run backend from ./backend
+model:
+  onnx:
+    path: ../churn_model.onnx
+
+logging:
+  level:
+    com.gymchurn: DEBUG
+    root: INFO

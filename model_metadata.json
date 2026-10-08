@@ -1,0 +1,28 @@
+{
+  "feature_columns": [
+    "Age",
+    "Avg_Workout_Duration_Min",
+    "Avg_Calories_Burned",
+    "Total_Weight_Lifted_kg",
+    "Visits_Per_Month",
+    "Tenure_Days",
+    "Gender_Male",
+    "Membership_Type_Quarterly",
+    "Membership_Type_Yearly",
+    "Favorite_Exercise_Cycling",
+    "Favorite_Exercise_Deadlift",
+    "Favorite_Exercise_Pull-ups",
+    "Favorite_Exercise_Squats",
+    "Favorite_Exercise_Treadmill"
+  ],
+  "num_features": 14,
+  "model_type": "RandomForestClassifier",
+  "risk_thresholds": {
+    "high": 0.7,
+    "medium": 0.4,
+    "low": 0.0
+  },
+  "churn_rate_pct": 26.0,
+  "retained_avg_visits": 16.8,
+  "churned_avg_visits": 6.7
+}

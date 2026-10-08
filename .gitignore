@@ -1,0 +1,29 @@
+# Node & Frontend dependencies
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Java & Backend builds
+backend/target/
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# System & OS files
+.DS_Store
+Thumbs.db
+*.log
