@@ -32,13 +32,13 @@
 
 ### 1. Run the Spring Boot Backend
 ```cmd
-backend\run_backend.bat
+.\run_backend.bat
 ```
 *API running at `http://localhost:8080`*
 
 ### 2. Run the React Dashboard
 ```cmd
-run_frontend.bat
+.\run_frontend.bat
 ```
 *Dashboard running at `http://localhost:5173`*
 
